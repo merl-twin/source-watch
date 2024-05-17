@@ -1,5 +1,5 @@
 [package]
-name = "watcher"
+name = "source-watch"
 version = "0.0.1"
 authors = ["merl <merl.001.mia@gmail.com>"]
 edition = "2021"
@@ -8,8 +8,8 @@ license = "MIT"
 readme = "README.md"
 description = "Watch the external file resources and notify on change"
 
-repository = "https://github.com/merl-twin/watcher"
-homepage = "https://github.com/merl-twin/watcher"
+repository = "https://github.com/merl-twin/source-watch"
+homepage = "https://github.com/merl-twin/source-watch"
 
 include = [
     "**/*.rs",
