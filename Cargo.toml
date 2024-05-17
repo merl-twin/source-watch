@@ -1,0 +1,21 @@
+[package]
+name = "watcher"
+version = "0.0.1"
+authors = ["merl <merl.001.mia@gmail.com>"]
+edition = "2021"
+
+license = "MIT"
+readme = "README.md"
+description = "Watch the external file resources and notify on change"
+
+repository = "https://github.com/merl-twin/watcher"
+homepage = "https://github.com/merl-twin/watcher"
+
+include = [
+    "**/*.rs",
+    "Cargo.toml",
+]
+
+[dependencies]
+log = "0.4"
+
